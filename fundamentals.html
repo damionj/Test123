@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Fundamentals - Foundation for Agentic Systems</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo"><h1>Agentic AI</h1></div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item has-submenu">
+                    <a href="#" class="nav-link active">Learn</a>
+                    <ul class="submenu">
+                        <li><a href="fundamentals.html">AI Fundamentals</a></li>
+                        <li><a href="what-is.html">What is Agentic AI</a></li>
+                        <li><a href="architecture.html">Architecture & Design</a></li>
+                        <li><a href="advanced-topics.html">Advanced Topics</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item has-submenu">
+                    <a href="#" class="nav-link">Tools & Frameworks</a>
+                    <ul class="submenu">
+                        <li><a href="frameworks.html">All Frameworks</a></li>
+                        <li class="has-submenu">
+                            <a href="#">Open Source Projects</a>
+                            <ul class="submenu">
+                                <li><a href="openhands.html">OpenHands</a></li>
+                                <li><a href="ollama.html">Ollama</a></li>
+                                <li><a href="langchain.html">LangChain</a></li>
+                                <li><a href="autogpt.html">AutoGPT</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="frameworks.html#commercial">Commercial Tools</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="use-cases.html" class="nav-link">Applications</a></li>
+                <li class="nav-item has-submenu">
+                    <a href="#" class="nav-link">Research</a>
+                    <ul class="submenu">
+                        <li><a href="research-papers.html">Papers & Publications</a></li>
+                        <li><a href="trends.html">Trends & Future</a></li>
+                        <li><a href="challenges.html">Challenges</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="resources.html" class="nav-link">Resources</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <h1>AI Fundamentals</h1>
+        <p>Building Blocks for Understanding Agentic Systems</p>
+    </header>
+
+    <div class="breadcrumb container">
+        <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#" class="nav-link">Learn</a></li>
+            <li>AI Fundamentals</li>
+        </ol>
+    </div>
+
+    <main class="container">
+        <section class="content-section">
+            <h2>Core Concepts</h2>
+            
+            <h3>Machine Learning</h3>
+            <p>Machine learning is a subset of AI where systems learn patterns from data without being explicitly programmed. There are three main types:</p>
+            <ul>
+                <li><strong>Supervised Learning:</strong> Learning from labeled examples (e.g., classification, regression)</li>
+                <li><strong>Unsupervised Learning:</strong> Finding patterns in unlabeled data (e.g., clustering)</li>
+                <li><strong>Reinforcement Learning:</strong> Learning through interaction and rewards (crucial for agents)</li>
+            </ul>
+
+            <h3>Neural Networks</h3>
+            <p>Neural networks are computational models inspired by biological neurons. They consist of interconnected layers of nodes that process information and learn patterns. Deep learning uses multiple layers (hence "deep") to learn hierarchical representations of data.</p>
+
+            <h3>Large Language Models (LLMs)</h3>
+            <p>LLMs are neural networks trained on vast amounts of text data. They can understand and generate human language, perform reasoning, and serve as the "brain" of many agentic systems. Models like GPT, Claude, and open source alternatives form the foundation of modern agents.</p>
+
+            <h3>Natural Language Processing (NLP)</h3>
+            <p>NLP enables computers to understand and process human language. For agentic AI, NLP allows agents to interpret user requests, communicate with humans, and understand textual information from their environment.</p>
+        </section>
+
+        <section class="content-section">
+            <h2>Key Technologies for Agents</h2>
+            
+            <div class="cards-grid">
+                <div class="card">
+                    <h4>Large Language Models</h4>
+                    <p>Foundation models for reasoning, planning, and decision-making in agents. Can understand context and generate appropriate responses and actions.</p>
+                </div>
+                <div class="card">
+                    <h4>Prompt Engineering</h4>
+                    <p>The art of crafting instructions and context to guide model behavior. Critical for directing agents toward desired goals.</p>
+                </div>
+                <div class="card">
+                    <h4>Tool Integration</h4>
+                    <p>Agents use external tools (APIs, functions, databases) to interact with their environment and accomplish concrete tasks.</p>
+                </div>
+                <div class="card">
+                    <h4>Vector Databases</h4>
+                    <p>Efficient storage and retrieval of semantic information, enabling agents to maintain knowledge and context.</p>
+                </div>
+                <div class="card">
+                    <h4>Knowledge Graphs</h4>
+                    <p>Structured representations of knowledge that agents can reason over and update as they learn.</p>
+                </div>
+                <div class="card">
+                    <h4>Memory Systems</h4>
+                    <p>Short-term and long-term memory mechanisms that allow agents to learn from experience and maintain context.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>Reinforcement Learning & Agents</h2>
+            <p>Reinforcement learning (RL) is particularly relevant for agentic AI. In RL, agents learn by interacting with an environment:</p>
+            <ul>
+                <li>The agent takes an action in response to the current state</li>
+                <li>The environment transitions to a new state</li>
+                <li>The agent receives a reward signal indicating how good that action was</li>
+                <li>The agent learns to maximize cumulative rewards over time</li>
+            </ul>
+            <p>This feedback loop enables agents to discover effective strategies through trial and error, combined with more sophisticated reasoning mechanisms.</p>
+        </section>
+
+        <section class="content-section">
+            <h2>Common Challenges</h2>
+            <ul>
+                <li><strong>Alignment:</strong> Ensuring agents pursue goals aligned with human values</li>
+                <li><strong>Reliability:</strong> Making agents consistently perform correct actions</li>
+                <li><strong>Interpretability:</strong> Understanding why agents make specific decisions</li>
+                <li><strong>Scalability:</strong> Building agents that work in complex, real-world environments</li>
+                <li><strong>Safety:</strong> Containing agent actions within appropriate boundaries</li>
+            </ul>
+        </section>
+
+        <section class="cta-section container">
+            <h2>Ready for the Next Level?</h2>
+            <p>Now that you understand the fundamentals, explore agentic AI concepts and architecture.</p>
+            <a href="what-is.html" class="button">Learn About Agentic AI</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div>
+                <h4>Learn</h4>
+                <ul>
+                    <li><a href="fundamentals.html">AI Fundamentals</a></li>
+                    <li><a href="what-is.html">What is Agentic AI</a></li>
+                    <li><a href="architecture.html">Architecture</a></li>
+                    <li><a href="advanced-topics.html">Advanced Topics</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="frameworks.html">Frameworks</a></li>
+                    <li><a href="use-cases.html">Applications</a></li>
+                    <li><a href="research-papers.html">Research</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Open Source</h4>
+                <ul>
+                    <li><a href="openhands.html">OpenHands</a></li>
+                    <li><a href="ollama.html">Ollama</a></li>
+                    <li><a href="langchain.html">LangChain</a></li>
+                    <li><a href="autogpt.html">AutoGPT</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Agentic AI Knowledge Base. An educational resource for understanding autonomous intelligent systems.</p>
+        </div>
+    </footer>
+</body>
+</html>
