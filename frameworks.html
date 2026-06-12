@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frameworks - Agentic AI Knowledge Base</title>
+    <title>Frameworks & Tools - Agentic AI</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -22,7 +22,7 @@
                     </ul>
                 </li>
                 <li class="nav-item has-submenu">
-                    <a href="#" class="nav-link">Tools & Frameworks</a>
+                    <a href="#" class="nav-link active">Tools & Frameworks</a>
                     <ul class="submenu">
                         <li><a href="frameworks.html">All Frameworks</a></li>
                         <li class="has-submenu">
@@ -52,52 +52,159 @@
     </nav>
 
     <header class="page-header">
-        <h1>Frameworks</h1>
-        <p>Agentic AI Knowledge Base</p>
+        <h1>Frameworks & Tools</h1>
+        <p>Complete Guide to Building Agentic Systems</p>
     </header>
 
     <div class="breadcrumb container">
         <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Frameworks</li>
+            <li>Tools & Frameworks</li>
         </ol>
     </div>
 
     <main class="container">
         <section class="content-section">
-            <h2>Overview</h2>
-            <p>This page provides comprehensive information about frameworks. Navigate using the menu to explore different aspects of agentic AI.</p>
-            <div class="alert alert-info">
-                <strong>Note:</strong> Use the navigation menu above to explore related topics and frameworks.
-            </div>
-        </section>
+            <div class="content-main">
+                <div class="content-body">
+                    <h2>Open Source Frameworks</h2>
+                    <p>Open source frameworks democratize agentic AI development, providing accessible tools without proprietary lock-in. The following frameworks have emerged as industry standards, each optimized for specific use cases and offering different strengths.</p>
 
-        <section class="content-section">
-            <h2>Key Topics</h2>
-            <div class="cards-grid">
-                <div class="card">
-                    <h4>Learn the Basics</h4>
-                    <p><a href="what-is.html">Start with what is Agentic AI</a></p>
+                    <h3>OpenHands</h3>
+                    <p>Built specifically for software engineering, OpenHands is the most complete framework for autonomous AI agents in development. It enables agents to write code, debug issues, run tests, and manage entire development workflows. Perfect for teams looking to automate software engineering tasks.</p>
+                    <p><a href="openhands.html" style="color: #1565c0; font-weight: 600;">Explore OpenHands in detail →</a></p>
+
+                    <h3>LangChain</h3>
+                    <p>A comprehensive framework for building applications with large language models. LangChain abstracts away complexity, simplifying agent creation, tool integration, and memory management. It's ideal for general-purpose agentic applications across multiple domains.</p>
+                    <p><a href="langchain.html" style="color: #1565c0; font-weight: 600;">Learn about LangChain →</a></p>
+
+                    <h3>AutoGPT</h3>
+                    <p>A pioneering open-source project demonstrating autonomous agent capabilities. AutoGPT shows how an agent can autonomously break down complex goals, create sub-tasks, and execute them with minimal human guidance. Excellent for learning and experimentation.</p>
+                    <p><a href="autogpt.html" style="color: #1565c0; font-weight: 600;">Discover AutoGPT →</a></p>
+
+                    <h3>CrewAI</h3>
+                    <p>Focused on multi-agent systems and team-based problem solving. CrewAI enables building systems where multiple specialized agents collaborate, each with specific roles and expertise. Ideal for complex problems requiring diverse perspectives and skills.</p>
+
+                    <h3>Other Notable Projects</h3>
+                    <ul style="margin: 15px 0 20px 20px;">
+                        <li><strong>Ray:</strong> Distributed computing framework for scaling agents</li>
+                        <li><strong>Semantic Kernel:</strong> Microsoft's framework for LLM integration</li>
+                        <li><strong>Haystack:</strong> NLP framework with agent capabilities</li>
+                        <li><strong>Rasa:</strong> Specialized for conversational agents</li>
+                    </ul>
+
+                    <h2 style="margin-top: 40px;">Language Model Providers</h2>
+                    <p>Agents need reasoning engines. Open source LLM providers give you control, privacy, and cost savings by running models locally or via open APIs.</p>
+
+                    <h3>Ollama</h3>
+                    <p>Run powerful language models locally on your own hardware. Ollama provides optimized, quantized versions of popular open-source models like Llama 2, Mistral, and Code Llama. Perfect for building private, offline agent systems without API dependencies.</p>
+                    <p><a href="ollama.html" style="color: #1565c0; font-weight: 600;">Learn about Ollama →</a></p>
+
+                    <h3>Hugging Face</h3>
+                    <p>The largest hub for open source machine learning. Access tens of thousands of pre-trained models, datasets, and tools. Community-driven with excellent documentation, integration options, and a vibrant developer ecosystem.</p>
+
+                    <h3>Together AI</h3>
+                    <p>Open API for running open-source models at scale. Offers faster inference and easier scaling compared to running models locally, without the cost or lock-in of proprietary services.</p>
+
+                    <h2 style="margin-top: 40px;" id="commercial">Commercial & Enterprise Solutions</h2>
+                    <p>For organizations requiring enterprise support, guaranteed uptime, or advanced features, commercial solutions offer dedicated infrastructure and support contracts.</p>
+
+                    <h3>OpenAI GPT Models</h3>
+                    <p>GPT-4 and GPT-3.5 via API offer state-of-the-art reasoning capabilities. Comprehensive ecosystem with fine-tuning, plugins, and enterprise options. Market leader with extensive documentation and community support.</p>
+
+                    <h3>Anthropic Claude</h3>
+                    <p>Advanced reasoning models with safety-focused training. Known for nuanced responses and strong performance on complex reasoning tasks. Excellent API with enterprise support options.</p>
+
+                    <h3>Google Gemini & PaLM</h3>
+                    <p>Multimodal models handling text, images, audio, and video. Deep integration with Google Cloud platform. Competitive pricing and strong enterprise features.</p>
+
+                    <h3>Microsoft Azure AI</h3>
+                    <p>Enterprise-grade AI services with strong compliance features. Integration with Microsoft ecosystem. Generous credits for startups and competitive enterprise pricing.</p>
+
+                    <h3>Cohere</h3>
+                    <p>Enterprise-focused with strong NLP capabilities. Offers fine-tuning, custom model training, and dedicated support for enterprises.</p>
                 </div>
-                <div class="card">
-                    <h4>Understand Architecture</h4>
-                    <p><a href="architecture.html">Explore agent architecture and design patterns</a></p>
-                </div>
-                <div class="card">
-                    <h4>Explore Tools</h4>
-                    <p><a href="frameworks.html">Discover frameworks and tools for building agents</a></p>
-                </div>
-                <div class="card">
-                    <h4>See Applications</h4>
-                    <p><a href="use-cases.html">View real-world use cases and applications</a></p>
+
+                <div class="content-highlights">
+                    <div class="highlight-box">
+                        <h4>🎯 Quick Selection Guide</h4>
+                        <p>Choose your framework based on your primary use case:</p>
+                        <ul>
+                            <li>Software development → OpenHands</li>
+                            <li>General applications → LangChain</li>
+                            <li>Learning/experiments → AutoGPT</li>
+                            <li>Team-based agents → CrewAI</li>
+                            <li>Chatbots → Rasa</li>
+                        </ul>
+                    </div>
+
+                    <div class="highlight-box">
+                        <h4>🧠 LLM Provider Selection</h4>
+                        <ul>
+                            <li>Privacy-first → Ollama (local)</li>
+                            <li>Best performance → GPT-4</li>
+                            <li>Safety-focused → Claude</li>
+                            <li>Cost-effective → Open-source via HuggingFace</li>
+                            <li>Enterprise → Azure AI, Cohere</li>
+                        </ul>
+                    </div>
+
+                    <div class="highlight-box">
+                        <h4>💡 Key Framework Features</h4>
+                        <p>When evaluating frameworks, prioritize:</p>
+                        <ul>
+                            <li>Tool/API integration</li>
+                            <li>Memory management</li>
+                            <li>Extensibility</li>
+                            <li>Performance</li>
+                            <li>Documentation quality</li>
+                            <li>Community support</li>
+                            <li>Active development</li>
+                        </ul>
+                    </div>
+
+                    <div class="highlight-box">
+                        <h4>📦 Installation Quick Start</h4>
+                        <p>Most frameworks are pip-installable:</p>
+                        <ul>
+                            <li>pip install openhands</li>
+                            <li>pip install langchain</li>
+                            <li>pip install crewai</li>
+                            <li>pip install ollama</li>
+                        </ul>
+                        <p style="margin-top: 10px; font-size: 13px; color: #666;">Check official docs for specific versions and dependencies</p>
+                    </div>
+
+                    <div class="highlight-box">
+                        <h4>🔗 Official Resources</h4>
+                        <ul>
+                            <li><strong>OpenHands:</strong> github.com/openhands-dev/openhands</li>
+                            <li><strong>LangChain:</strong> langchain.com</li>
+                            <li><strong>AutoGPT:</strong> github.com/Significant-Gravitas</li>
+                            <li><strong>CrewAI:</strong> crewai.io</li>
+                            <li><strong>Ollama:</strong> ollama.ai</li>
+                            <li><strong>HuggingFace:</strong> huggingface.co</li>
+                        </ul>
+                    </div>
+
+                    <div class="highlight-box">
+                        <h4>⚡ Performance Tips</h4>
+                        <ul>
+                            <li>Use quantized models for speed</li>
+                            <li>Cache tool responses</li>
+                            <li>Batch operations when possible</li>
+                            <li>Monitor token usage</li>
+                            <li>Implement timeout handlers</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section class="cta-section container">
-            <h2>Explore the Full Knowledge Base</h2>
-            <p>Use the navigation menu to access comprehensive guides and resources.</p>
-            <a href="index.html" class="button">Back to Home</a>
+            <h2>Ready to Build?</h2>
+            <p>Explore detailed documentation for specific frameworks and start building your first agentic system today.</p>
+            <a href="openhands.html" class="button">Explore OpenHands</a>
         </section>
     </main>
 
